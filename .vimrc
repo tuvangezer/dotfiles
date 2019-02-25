@@ -13,6 +13,7 @@ Plugin 'gmarik/Vundle.vim'
 
 
 
+Plugin 'justinmk/vim-syntax-extra'
 Plugin 'vim-airline/vim-airline'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'dracula/vim'
