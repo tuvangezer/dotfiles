@@ -52,6 +52,7 @@ set hlsearch
 let g:airline_theme = 'dracula'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#branch#enabled = 1
+let g:go_version_warning = 0
 set laststatus=2
 
 set noruler
