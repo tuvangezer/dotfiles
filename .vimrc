@@ -47,7 +47,7 @@ set tabstop=2
 set incsearch
 set hlsearch
 
-
+nnoremap <esc> :noh<return><esc>
 
 
 let g:airline_theme = 'dracula'
