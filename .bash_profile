@@ -1,3 +1,5 @@
+export PS1='\w\$ '
+
 mk () {
 	mkdir -p "$@" && cd "$@"
 }
@@ -13,6 +15,7 @@ pathmunge () {
 	fi
 }
 
+pathmunge . after
 
 if [ -f ~/.bashrc ]; then
 	source ~/.bashrc
