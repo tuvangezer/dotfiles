@@ -7,6 +7,7 @@ sync:
 	[ -f ~/.bash_profile ] || ln -s $(PWD)/.bash_profile ~/.bash_profile
 	[ -f ~/.bashrc ] || ln -s $(PWD)/.bashrc ~/.bashrc
 	source ~/.bash_profile
+	source ~/.bashrc
 clean:
 	rm -f ~/.vimrc
 	rm -f ~/.bashrc
