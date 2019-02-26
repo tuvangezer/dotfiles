@@ -1,4 +1,4 @@
-export PS1='\w\$ '
+export PS1='\e[1;33m\w\ ==> \e[m'
 
 mk () {
 	mkdir -p "$@" && cd "$@"
