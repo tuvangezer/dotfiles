@@ -48,6 +48,9 @@ set tabstop=2
 set incsearch
 set hlsearch
 
+
+vmap <C-c> :w !pbcopy<CR><CR>
+
 " NERDtree
 map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif

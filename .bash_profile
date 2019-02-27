@@ -1,9 +1,8 @@
-export PS1='\e[1;33m\w\ ==> \e[m'
+export PS1='\[\e[1;33m[\h > \W] \$ \e[m'
 
 mk () {
 	mkdir -p "$@" && cd "$@"
 }
-
 
 pathmunge () {
 	if ! echo "$PATH" | grep -Eq "(^|:)$1($|:)" ; then
